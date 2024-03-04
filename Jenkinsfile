@@ -17,6 +17,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                sh './non_existing_script.sh'
                
                 echo 'Deploy'
                 '
